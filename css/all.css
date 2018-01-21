@@ -593,10 +593,19 @@ fieldset {
   h3 {
     padding: 50px 0 50px; } }
 .alt-section {
-  background: #e5eaee;
-  padding-bottom: 100px; }
+  /* background: #e5eaee; */
+  /* padding-bottom: 100px; */
+}
   .alt-section h3 {
     color: #3c71c9; }
+
+section {
+  padding-bottom: 100px;
+}
+
+section:nth-child(odd) {
+  background: #e5eaee;
+}
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
@@ -1226,7 +1235,7 @@ footer {
 
 form {
   max-width: 450px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   padding: 0 20px; }
   form input, form textarea {
     border: 3px solid #384d96;
