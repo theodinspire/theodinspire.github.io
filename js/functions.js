@@ -55,6 +55,16 @@ function  workLoad() {
 		spinner = '<div class="loader">Loading...</div>',
 		newHTML = document.URL + 'work/' + newfolder;
 
+		var element = document.getElementsByClassName('project-load');
+
+		element.innerHTML = spinner;
+
+		fetch(newHTML).then(function(res) {
+			return res.text().then(function(text) {
+				element.innerHTML = text;
+			});
+		});
+
 		$('.project-load').html(spinner).load(newHTML);
 		$('.project-title').text(newTitle);
 	});
