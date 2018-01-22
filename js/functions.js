@@ -46,26 +46,17 @@ function workBelt() {
 
 function  workLoad() {
 
-  //$.ajaxSetup({ cache: true });
+  $.ajaxSetup({ cache: true });
 
 	$('.thumb-container label').click(function() {
 		var $this = $(this),
 		newTitle = $this.find('strong').text(),
 		newfolder = $this.find('.thumb-unit').data('folder'),
 		spinner = '<div class="loader">Loading...</div>',
-		newHTML = '/work/'+ newfolder;
+		newHTML = document.URL + 'work/' + newfolder;
 
-		var element = document.getElementsByClassName('project-load')[0];
-
-		element.innerHTML = spinner;
-
-		fetch(newHTML).then(function(res) {
-			return res.text().then(function(text) {
-				element.innerHTML = text;
-			});
-		});
-
-		document.getElementsByClassName('project-title')[0].innerHTML = newTitle;
+		$('.project-load').html(spinner).load(newHTML);
+		$('.project-title').text(newTitle);
 	});
 
 }
