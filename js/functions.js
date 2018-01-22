@@ -46,37 +46,26 @@ function workBelt() {
 
 function  workLoad() {
 
-  $.ajaxSetup({ cache: true });
+  //$.ajaxSetup({ cache: true });
 
 	$('.thumb-container label').click(function() {
 		var $this = $(this),
 		newTitle = $this.find('strong').text(),
 		newfolder = $this.find('.thumb-unit').data('folder'),
 		spinner = '<div class="loader">Loading...</div>',
-		newHTML = 'work/'+ newfolder;
+		newHTML = '/work/'+ newfolder;
 
 		var element = document.getElementsByClassName('project-load')[0];
 
 		element.innerHTML = spinner;
 
-		var request = new XMLHttpRequest();
-		request.open('GET', newHTML, true);
+		fetch(newHTML).then(function(res) {
+			return res.text().then(function(text) {
+				element.innerHTML = text;
+			});
+		});
 
-		request.onload = function() {
-			if (request.status >= 200 && request.status < 400) {
-				//	Success
-				// console.log(request.responseText);
-				element.innerHTML = request.responseText;
-			}
-		}
-
-		request.onerror = function() {
-			console.log("Could not load data");
-		}
-
-		request.send();
-
-		$('.project-title').text(newTitle);
+		document.getElementsByClassName('project-title')[0].innerHTML = newTitle;
 	});
 
 }
