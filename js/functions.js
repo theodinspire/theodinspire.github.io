@@ -65,8 +65,8 @@ function  workLoad() {
 		request.onload = function() {
 			if (request.status >= 200 && request.status < 400) {
 				//	Success
-				console.log("You did the thing");
-				element.innerHTML = request.responseXML;
+				// console.log(request.responseText);
+				element.innerHTML = request.responseText;
 			}
 		}
 
@@ -75,7 +75,6 @@ function  workLoad() {
 		}
 
 		request.send();
-		console.log("Request sent");
 
 		$('.project-title').text(newTitle);
 	});
