@@ -48,16 +48,37 @@ function  workLoad() {
 
   $.ajaxSetup({ cache: true });
 
-  $('.thumb-container label').click(function() {
-    var $this = $(this),
-        newTitle = $this.find('strong').text(),
-        newfolder = $this.find('.thumb-unit').data('folder'),
-        spinner = '<div class="loader">Loading...</div>',
-        newHTML = './work/'+ newfolder;
+	$('.thumb-container label').click(function() {
+		var $this = $(this),
+		newTitle = $this.find('strong').text(),
+		newfolder = $this.find('.thumb-unit').data('folder'),
+		spinner = '<div class="loader">Loading...</div>',
+		newHTML = 'work/'+ newfolder;
 
-    $('.project-load').html(spinner).load(newHTML);
-    $('.project-title').text(newTitle);
-  });
+		var element = document.getElementsByClassName('project-load')[0];
+
+		element.innerHTML = spinner;
+
+		var request = new XMLHttpRequest();
+		request.open('GET', newHTML, true);
+
+		request.onload = function() {
+			if (request.status >= 200 && request.status < 400) {
+				//	Success
+				console.log("You did the thing");
+				element.innerHTML = request.responseXML;
+			}
+		}
+
+		request.onerror = function() {
+			console.log("Could not load data");
+		}
+
+		request.send();
+		console.log("Request sent");
+
+		$('.project-title').text(newTitle);
+	});
 
 }
 
