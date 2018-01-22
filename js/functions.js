@@ -56,12 +56,13 @@ function  workLoad() {
 		newHTML = document.URL + 'work/' + newfolder + '/';
 		console.log(newHTML);
 
-		var element = document.getElementsByClassName('project-load');
+		let element = document.getElementsByClassName('project-load')[0];
 
 		element.innerHTML = spinner;
 
 		fetch(newHTML).then(function(res) {
 			return res.text().then(function(text) {
+				console.log(text);
 				element.innerHTML = text;
 			});
 		});
