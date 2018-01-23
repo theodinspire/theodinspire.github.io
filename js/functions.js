@@ -54,7 +54,6 @@ function  workLoad() {
 		newfolder = $this.find('.thumb-unit').data('folder'),
 		spinner = '<div class="loader">Loading...</div>',
 		newHTML = document.URL + 'work/' + newfolder + '/';
-		console.log(newHTML);
 
 		let element = document.getElementsByClassName('project-load')[0];
 
@@ -62,7 +61,6 @@ function  workLoad() {
 
 		fetch(newHTML).then(function(res) {
 			return res.text().then(function(text) {
-				console.log(text);
 				element.innerHTML = text;
 			});
 		});
