@@ -1,5 +1,5 @@
 /* Icons */
-@font-face {
+/* @font-face {
   font-family: 'icons';
   src: url('../font/icons.eot?72377961');
   src: url('../font/icons.eot?72377961#iefix') format('embedded-opentype'),
@@ -9,7 +9,7 @@
        url('../font/icons.svg?72377961#icons') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
@@ -595,7 +595,7 @@ svg {
 h3 {
   color: #5365c3;
   text-align: center;
-  padding: 100px 0 30px; }
+  padding: 20px 0 20px; }
 
 fieldset {
   padding: 0;
@@ -613,7 +613,7 @@ fieldset {
     color: #3c71c9; }
 
 section {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 section:nth-child(odd) {
@@ -625,23 +625,17 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-weight: 700;
   text-transform: uppercase; }
 
-header, footer {
+/* header, footer {
   background-repeat: no-repeat, no-repeat;
   background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%;
-  background-blend-mode: overlay, normal; }
+  background-blend-mode: overlay, normal; } */
 
 header {
-  background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
+  background-position: 50%, 50%;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
   padding-bottom: 50px; }
-  header .logo {
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin: 10px 0 0 30px; }
-    header .logo path {
-      fill: rgba(0, 0, 0, 0.4); }
   header nav {
     float: right;
     padding: 30px 30px 0 0; }
@@ -660,7 +654,7 @@ header {
     letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
-    padding-top: 100px; }
+    padding-top: 50px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -673,7 +667,7 @@ header {
 
 @media (max-width: 640px) {
   header {
-    background-position: 50% 20px, 50% 50%; }
+    background-position: 50% 50%; }
     header nav {
       float: none;
       text-align: center;
@@ -681,7 +675,9 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: 50%, 50%;}
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
@@ -811,7 +807,7 @@ blockquote footer::before {
 .blurb {
   max-width: 620px;
   padding: 0 20px;
-  margin: 50px auto;
+  margin: 50px auto 0px;
   font-size: 24px;
   text-align: center;
   font-weight: 300; }

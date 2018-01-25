@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/resume/compsci/</loc>
+  </url>
+  
+  <url>
+    <loc>/resume/erikson/</loc>
+  </url>
+  
+  <url>
+    <loc>/resume/miraclemessages/</loc>
+  </url>
+  
+  <url>
     <loc>/work/coupleteer/</loc>
   </url>
   
@@ -21,6 +33,11 @@
   
   <url>
     <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/resume/</loc>
     <priority>0</priority>
   </url>
   
