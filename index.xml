@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eric T Cormack</title>
-    <link>/</link>
+    <link>//erictcormack.com/</link>
     <description>Recent content on Eric T Cormack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//erictcormack.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/resume/compsci/</link>
+      <link>//erictcormack.com/resume/compsci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resume/compsci/</guid>
+      <guid>//erictcormack.com/resume/compsci/</guid>
       <description> Coursework in cognitive science, database design, natural language processing et al. Studied iOS and Swift, including UIKit, Grand Central Dispatch, Auto Layout and Foundation Created a couplet generator using NLP concepts such as the hidden Markov model Developed a game proof-of-concept in a studio-team setting Geographic Information Systems project chosen for DePaul’s Map of the Month, March 2017  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/resume/erikson/</link>
+      <link>//erictcormack.com/resume/erikson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resume/erikson/</guid>
+      <guid>//erictcormack.com/resume/erikson/</guid>
       <description> Developed and documented guidelines for deploying Apple computers throughout the organization, allowing for standardized user experience for Apple users in a Windows business environment Debugged WordPress, PHP, SQL and JavaScript issues to ensure uninterrupted web service Corrected a range of technical issues including AV, printer/copier and critical hardware failure  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/resume/miraclemessages/</link>
+      <link>//erictcormack.com/resume/miraclemessages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resume/miraclemessages/</guid>
+      <guid>//erictcormack.com/resume/miraclemessages/</guid>
       <description> Modified and created data models and view controllers to comply with new database changes Release with contributed code available in the App Store  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/work/coupleteer/</link>
+      <link>//erictcormack.com/work/coupleteer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/work/coupleteer/</guid>
+      <guid>//erictcormack.com/work/coupleteer/</guid>
       <description>And thou accessory request sebastian
 Come lived who we be the rest our kind bastion Sample Coupleteer couplet
  Coupleteer is a couplet generator. Using natural language processsing techniques, it builds pairs of rhyming lines in iambic pentameter. The program&amp;rsquo;s vocabulary and grammar were trained form Shakespeare&amp;rsquo;s plays and poems. The code for the project may be found on GitHub</description>
@@ -50,19 +50,19 @@ Come lived who we be the rest our kind bastion Sample Coupleteer couplet
     
     <item>
       <title></title>
-      <link>/work/grackle/</link>
+      <link>//erictcormack.com/work/grackle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/work/grackle/</guid>
+      <guid>//erictcormack.com/work/grackle/</guid>
       <description>Grackle is a graphical temporary password generator written in Java. It is made to match the requirements of a particular organization&amp;rsquo;s user passwords while creating passwords memorable and legible enough to ease copying across media. Gracke&amp;rsquo;s code may be found on GitHub.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/work/miraclemessages/</link>
+      <link>//erictcormack.com/work/miraclemessages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/work/miraclemessages/</guid>
+      <guid>//erictcormack.com/work/miraclemessages/</guid>
       <description>Miracle Messages are short video messages from homeless individuals to their long-lost loved ones, delivered by a global network of volunteers via social media. Miracle Messages has been featured in 200+ media outlets, including the New York Times], the San Francisco Chronicle, NPR, People, and NowThis, whose video surpassed 20 million views and 300,000 shares.
 To date, 90% of loved ones have received their message positively, and an astonishing 40% of reunions have lead to stable housing or living with family again, including Isaac, who reunited with his family after 40 years.</description>
     </item>
