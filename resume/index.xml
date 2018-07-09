@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resumes on Eric T Cormack</title>
+    <link>//erictcormack.com/resume/</link>
+    <description>Recent content in Resumes on Eric T Cormack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="//erictcormack.com/resume/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//erictcormack.com/resume/compsci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//erictcormack.com/resume/compsci/</guid>
+      <description> Coursework in cognitive science, database design, natural language processing et al. Studied iOS and Swift, including UIKit, Grand Central Dispatch, Auto Layout and Foundation Created a couplet generator using NLP concepts such as the hidden Markov model Developed a game proof-of-concept in a studio-team setting Geographic Information Systems project chosen for DePaul’s Map of the Month, March 2017  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//erictcormack.com/resume/erikson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//erictcormack.com/resume/erikson/</guid>
+      <description> Developed and documented guidelines for deploying Apple computers throughout the organization, allowing for standardized user experience for Apple users in a Windows business environment Debugged WordPress, PHP, SQL and JavaScript issues to ensure uninterrupted web service Corrected a range of technical issues including AV, printer/copier and critical hardware failure  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//erictcormack.com/resume/miraclemessages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//erictcormack.com/resume/miraclemessages/</guid>
+      <description> Modified and created data models and view controllers to comply with new database changes Release with contributed code available in the App Store  </description>
+    </item>
+    
+  </channel>
+</rss>
